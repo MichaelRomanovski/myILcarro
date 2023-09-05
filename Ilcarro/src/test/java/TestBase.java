@@ -45,13 +45,15 @@ type(By.xpath("//*[@id='password']"),password);
     //my_password.click();
     //  my_password.clear();
     //my_password.sendKeys(password);
+
 }
 
 
 
-public void submit_Login_Registration()
+public void submit_Login()
 {
 wd.findElement(By.xpath("//*//*[@type='submit']")).click();
+wd.findElement(By.xpath("//*[@type='button']")).click();
 }
 
 
@@ -86,6 +88,17 @@ element.sendKeys(text);
     }
 
 
+    public boolean isLogged(){
+    return isElementPresent(By.xpath("//*[.=' Logged in ']"));
+
+    }
+
+public void logOut(){
+    click(By.xpath("//*[.=' Logout ']"));
+
+
+
+}
 
  //   @AfterMethod
    // public void close(){

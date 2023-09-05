@@ -12,10 +12,10 @@ public class LoginTest extends TestBase
     public void PositiveLoginTest(){
 openLog_inForm();
 fillEmail_Password_fields("miharomanovski1023@gmail.com","dtlmvfr403218@M");
-submit_Login_Registration();
-pause(3000);
+    pause(3000);
+submit_Login();
     Assert.assertTrue(isElementPresent(By.xpath("//*[.='Logged in']")));
-
+logOut();
 
 
 
