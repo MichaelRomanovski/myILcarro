@@ -1,111 +1,37 @@
+import Manager.Application_manager;
+import Manager.HelperBase;
+import Manager.HelperCar;
+import Manager.HelperUser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestBase
+public class TestBase implements HelperUser, HelperCar
 
 {
 
     WebDriver wd;
 
-@BeforeMethod
-
-public void init(){
-
-           wd=new ChromeDriver();
-        wd.navigate().to("https://ilcarro.web.app/search");
-wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-    }
-
-
-public void openLog_inForm()
-{
-    wd.findElement(By.xpath("//*[@href='/login?url=%2Fsearch']")).click();
+@BeforeSuite
+public void setup(){
+pause(5000);
+    init();
 
 }
 
-
-public void fillEmail_Password_fields(String email,String password)
-{
-  //  WebElement my_email = wd.findElement(By.xpath("//*[@id='email']"));
-//my_email.click();
-//my_email.clear();
-//my_email.sendKeys(email);
-
-type(By.xpath("//*[@id='email']"),email);
-type(By.xpath("//*[@id='password']"),password);
-    //WebElement my_password = wd.findElement(By.xpath("//*[@id='password']"));
-    //my_password.click();
-    //  my_password.clear();
-    //my_password.sendKeys(password);
-
-}
-
-
-
-public void submit_Login()
-{
-wd.findElement(By.xpath("//*//*[@type='submit']")).click();
-wd.findElement(By.xpath("//*[@type='button']")).click();
-}
-
-
-public void click(By locator)
-{
-
-    wd.findElement(locator).click();
-
-}
-public void type(By locator,String text){
-    WebElement element = wd.findElement(locator);
-    element.click();
-element.clear();
-element.sendKeys(text);
-
-}
-    public boolean isElementPresent(By locator)
-    {
-        return wd.findElements(locator).size()>0;
+    @AfterSuite
+    public  void close(){
+//pause(5000);
+   // tearDown();
 
     }
 
 
 
-
-    public void pause(int millis) {
-        try {
-            Thread.sleep(millis);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
-
-    public boolean isLogged(){
-    return isElementPresent(By.xpath("//*[.=' Logged in ']"));
-
-    }
-
-public void logOut(){
-    click(By.xpath("//*[.=' Logout ']"));
-
-
-
-}
-
- //   @AfterMethod
-   // public void close(){
-
-     //  wd.quit();
-
-
-    //}
 
 }
