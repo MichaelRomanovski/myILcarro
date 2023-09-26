@@ -66,11 +66,11 @@ default boolean isRegistered(){
 
 
 
-    default void submit_Login_and_ok_button()
+    default void submit_Login()
     {
         pause(3000);
         click(By.xpath("//*[@type='submit']"));
-        click(By.xpath("//*[@type='button']"));
+       // click(By.xpath("//*[@type='button']"));
     }
 
     default void  openRegistrationform(){
@@ -122,7 +122,7 @@ actions.moveByOffset(x,y).click().perform();
 default void Login(User user){
         openLog_inForm();
         fill_Login_Email_Password_fields(user);
-        submit_Login_and_ok_button();
+        submit_Login();
 
 
 
