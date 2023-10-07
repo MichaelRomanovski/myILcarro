@@ -12,7 +12,11 @@ public class User {
     String password;
 
 public User(){};
-    public void setName(String name) {
+    public void setName(String name)
+    {
+        if(name != null){
+            return;}
+
         this.name = name;
     }
 

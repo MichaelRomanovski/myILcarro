@@ -4,8 +4,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddNewCarTests extends TestBase {
+
     @BeforeMethod
-    public void precondition(){
+    public void precondition2(){
 
         if(isLogged()==false){
             Login(
@@ -14,7 +15,6 @@ public class AddNewCarTests extends TestBase {
         }
 
     }
-
 @Test
 public void addNewCarPossitiveInput()
 {

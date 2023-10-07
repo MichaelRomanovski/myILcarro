@@ -70,7 +70,7 @@ default boolean isRegistered(){
     {
         pause(3000);
         click(By.xpath("//*[@type='submit']"));
-       // click(By.xpath("//*[@type='button']"));
+        click(By.xpath("//*[@type='button']"));
     }
 
     default void  openRegistrationform(){
