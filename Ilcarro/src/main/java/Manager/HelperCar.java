@@ -59,6 +59,19 @@ default void typeLocation(String location){
     type(By.id("pickUpPlace"), location);
     click(By.className("pac-item"));
 }
+default void typeLocationCity(String location){
+    pause(3000);
+    type(By.xpath("//input[@id='city']"), location);
+    click(By.className("pac-item"));
+}
+default void typedates(){
+    click(By.xpath("//input[@id='dates']"));
+    pause(3000);
+    click(By.xpath("//div[.=' 17 ']"));
+click(By.xpath("//div[.=' 31 ']"));
+click(By.xpath("//button[@type='submit']"));
+pause(3000);
+}
 
 
 
@@ -68,8 +81,6 @@ default boolean isCarFormPresent(){
     return new WebDriverWait(wd,18)
             .until(ExpectedConditions
                     .textToBePresentInElement(wd.findElement(By.cssSelector("h2")),"details"));
-
-
 }
 
 
@@ -77,12 +88,23 @@ default void clickSubmit(){
         click(By.xpath("//button[@type='submit']"));
 
 
-
 }
 
 default void select(By locator,String option){
          new Select(wd.findElement(locator)).selectByValue(option);
 
+
+}
+
+default void openFindCar(){
+    click(By.xpath("//a[@href='/search']"));
+
+}
+
+
+default void findCar(Car car){
+typeLocationCity(car.getLocation_city());
+typedates();
 
 }
 

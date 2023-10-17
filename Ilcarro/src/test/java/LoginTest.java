@@ -1,13 +1,15 @@
 
 import Manager.HelperBase;
+import Manager.NGlistener;
 import Models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(NGlistener.class)
 
 public class LoginTest extends TestBase
 {
@@ -22,39 +24,34 @@ public class LoginTest extends TestBase
 
     }
 
-@Test
-    public void PositiveLoginTest()
-{
-User user=new User();
+@Test(groups = {"positive"})
+    public void PositiveLoginTest() {
+User user= User.builder()
+        .email("miharomanovski1023@gmail.com")
+        .password("dtlmvfr403218@M")
+
+        .build();
 openLog_inForm();
-fill_Login_Email_Password_fields(user.withEmail("miharomanovski1023@gmail.com").WithPassword("dtlmvfr403218@M"));
+fill_Login_Email_Password_fields(user);
 submit_Login();
 Assert.assertTrue(isElementPresent(By.xpath("//h2[@class='message']")));
 logOut();
 
 }
 
-    @Test
-    public void PositiveLoginTestModel()
-    {
 
-User user=new User();
-        openLog_inForm();
-        fill_Login_Email_Password_fields(user.withEmail("miharomanovski1023gmail.com").WithPassword("dtlmvfr403218@M"));
-        submit_Login();
-        pause(3000);
-logOut();
 
-    }
-
-     @Test
+     @Test(groups = {"negative"})
     public void negativeLoginTest(){
 
-         User user=new User().withEmail("miharomanovski1023gmail.com")
+        User user= User.builder().email("miharomanovski1023gmail.com").password("dtlmvfr403218@M")
 
-                 .WithPassword("dtlmvfr403218@M");
+                .build();
+
+
          openLog_inForm();
-         fill_Login_Email_Password_fields(user.getEmail(),user.getPassword());
+         fill_Login_Email_Password_fields(user);
+
 pause(3000);
          Assert.assertTrue(isElementPresent(By.xpath("//div[@class='ng-star-inserted']")));
 

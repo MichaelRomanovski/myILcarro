@@ -1,16 +1,21 @@
+import Manager.NGlistener;
 import Models.Car;
 import Models.User;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(NGlistener.class)
 public class AddNewCarTests extends TestBase {
 
     @BeforeMethod
-    public void precondition2(){
+    public void precondition(){
 
         if(isLogged()==false){
             Login(
-                    new User().withEmail("miharomanovski1023@gmail.com").WithPassword("dtlmvfr403218@M")
+                     User.builder().email("miharomanovski1023@gmail.com").password("dtlmvfr403218@M")
+
+
+                             .build()
             );
         }
 

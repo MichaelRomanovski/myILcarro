@@ -36,7 +36,7 @@ public class WDLISTENER extends AbstractWebDriverEventListener implements Helper
     @Override
     public void afterFindBy(By by, WebElement element, WebDriver driver) {
         super.afterFindBy(by, element, driver);
-        logger.info(" Element by locator "  +by +"is found");
+        logger.info(" Element by locator "  +by +" is found");
 
     }
 

@@ -1,21 +1,19 @@
+import Manager.NGlistener;
 import Models.User;
 import lombok.Getter;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(NGlistener.class)
 public class RegistrationTests extends TestBase
 {
 
-            User user=new User()
-                    .withName("Andrey")
-                    .withLastName("Polakov")
-                    .withEmail("andres@def.com")
-                    .WithPassword("Dtlmvfr403218@");
+
 
 
     @Test
-    public void registrationPositive(){
+    public void registrationPositive(User user){
 
     //int i=(int)(System.currentTimeMillis()/1000)%3600;
 
@@ -31,15 +29,11 @@ logOut();
 }
 
 @Test
-    public void registrationNegativeTests_model(){
-User user1=new User()
-        .withName("Pavel")
-        .withLastName("Polakov")
-        .withEmail("andrdef.com")
-        .WithPassword("Dtlmvfr403218@");
+    public void registrationNegativeTests_model(User user){
+
 
 openRegistrationform();
-registration_fields(user1);
+registration_fields(user);
 clickcheckbox();
 Assert.assertTrue(wrongEmail());
 pause(3000);
@@ -49,12 +43,9 @@ clickcheckbox();
 
 
 
-user1.withName("Pavel")
-        .withLastName("Polakov")
-        .withEmail("andrdef@.")
-        .WithPassword("Dtlmvfr403218@");
+
 openRegistrationform();
-    registration_fields(user1);
+    registration_fields(user);
     pause(1000);
 clickcheckbox();
 
@@ -66,34 +57,23 @@ clickcheckbox();
 
 
 
-user1.withName("Pavel")
-        .withLastName("Polakov")
-        .withEmail("andrdef@com")
-        .WithPassword("Dtlmvfr403218@");
 openRegistrationform();
-    registration_fields(user1);
+    registration_fields(user);
     pause(1000);
 clickcheckbox();
 
     Assert.assertTrue(wrongEmail());
     pause(3000);
+clickcheckbox();
 
-
-
-
-
-user1.withName("Pavel")
-        .withLastName("Polakov")
-        .withEmail("andrdef@com")
-        .WithPassword("Dtlmvfr403218@");
 openRegistrationform();
-    registration_fields(user1);
+    registration_fields(user);
     pause(1000);
 clickcheckbox();
 
     Assert.assertTrue(wrongEmail());
     pause(3000);
-
+clickcheckbox();
 
 
 

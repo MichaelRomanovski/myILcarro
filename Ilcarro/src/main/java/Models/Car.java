@@ -1,6 +1,6 @@
 package Models;
 
-import lombok.Builder;
+import  lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -25,7 +25,8 @@ public class Car
     String about;
 String price;
 String seats;
-
+String Location_city;
+String date;
 
 
 }
