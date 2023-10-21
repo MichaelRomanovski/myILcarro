@@ -32,7 +32,7 @@ public void addNewCarPossitiveInput()
             .fuel("Petrol")
             .seats("5")
             .carClass("B")
-            .carRegNumber("200-200")
+            .carRegNumber("200-500"+i)
             .price("245")
             .about("New car")
             .build();
