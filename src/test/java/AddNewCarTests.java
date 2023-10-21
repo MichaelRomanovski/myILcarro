@@ -11,12 +11,7 @@ public class AddNewCarTests extends TestBase {
     public void precondition(){
 
         if(isLogged()==false){
-            Login(
-                     User.builder().email(getEmail()).password(getPassword())
-
-
-                             .build()
-            );
+            Login();
         }
 
     }

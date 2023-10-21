@@ -119,9 +119,9 @@ actions.moveByOffset(x,y).click().perform();
 
 
 
-default void Login(User user){
+default void Login(){
         openLog_inForm();
-        fill_Login_Email_Password_fields(user);
+        fill_Login_Email_Password_fields(getEmail(),getPassword());
         submit_Login();
 
 
