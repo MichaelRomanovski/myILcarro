@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 @Listeners(NGlistener.class)
 public class AddNewCarTests extends TestBase {
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeMethod()
     public void precondition(){
 
         if(isLogged()==false){

@@ -39,7 +39,6 @@ public interface HelperBase extends Application_manager
 
 
 
-
     default void pause(int millis) {
         try {
             Thread.sleep(millis);
