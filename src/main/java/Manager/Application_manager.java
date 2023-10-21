@@ -37,6 +37,7 @@ Logger logger=LoggerFactory.getLogger(Application_manager.class);
         String target = System.getProperty("target", "preproduction");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
         String link = properties.getProperty("webBaseUrl");
+        wd.manage().window().maximize();
         wd.navigate().to(link);
             wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
             wd.register(new WDLISTENER());
