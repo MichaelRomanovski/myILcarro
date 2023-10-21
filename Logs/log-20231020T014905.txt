@@ -1,0 +1,90 @@
+2023-10-20 01:49:08,175 INFO M.Application_manager [NGlistener.java:48] Tests are started:
+2023-10-20 01:49:08,204 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[.=' Logout ']
+2023-10-20 01:49:11,230 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[.=' Logout '] is found
+2023-10-20 01:49:11,232 INFO M.Application_manager [NGlistener.java:13] Start of the test>>PositiveLoginTestwithProperties
+2023-10-20 01:49:11,233 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@href='/login?url=%2Fsearch']
+2023-10-20 01:49:11,247 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@href='/login?url=%2Fsearch'] is found
+2023-10-20 01:49:11,509 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='email']
+2023-10-20 01:49:11,529 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='email'] is found
+2023-10-20 01:49:11,822 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='password']
+2023-10-20 01:49:11,840 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='password'] is found
+2023-10-20 01:49:15,130 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@type='submit']
+2023-10-20 01:49:15,149 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@type='submit'] is found
+2023-10-20 01:49:15,395 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@type='button']
+2023-10-20 01:49:16,189 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@type='button'] is found
+2023-10-20 01:49:16,424 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //h2[@class='message']
+2023-10-20 01:49:19,454 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //h2[@class='message'] is found
+2023-10-20 01:49:19,457 INFO M.Application_manager [NGlistener.java:26] failure test>>java.lang.AssertionError: expected [true] but found [false]
+2023-10-20 01:49:19,458 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[.=' Logout ']
+2023-10-20 01:49:19,472 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[.=' Logout '] is found
+2023-10-20 01:49:19,473 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[.=' Logout ']
+2023-10-20 01:49:19,487 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[.=' Logout '] is found
+2023-10-20 01:49:19,766 INFO M.Application_manager [NGlistener.java:13] Start of the test>>negativeLoginTestWithProperties
+2023-10-20 01:49:19,766 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@href='/login?url=%2Fsearch']
+2023-10-20 01:49:19,782 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@href='/login?url=%2Fsearch'] is found
+2023-10-20 01:49:20,027 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='email']
+2023-10-20 01:49:20,044 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='email'] is found
+2023-10-20 01:49:20,338 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='password']
+2023-10-20 01:49:20,358 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='password'] is found
+2023-10-20 01:49:23,641 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //div[@class='ng-star-inserted']
+2023-10-20 01:49:26,672 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //div[@class='ng-star-inserted'] is found
+2023-10-20 01:49:26,673 INFO M.Application_manager [NGlistener.java:26] failure test>>java.lang.AssertionError: expected [true] but found [false]
+2023-10-20 01:49:26,676 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[.=' Logout ']
+2023-10-20 01:49:29,695 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[.=' Logout '] is found
+2023-10-20 01:49:29,697 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@href='/login?url=%2Fsearch']
+2023-10-20 01:49:29,711 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@href='/login?url=%2Fsearch'] is found
+2023-10-20 01:49:29,946 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='email']
+2023-10-20 01:49:29,962 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='email'] is found
+2023-10-20 01:49:30,256 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='password']
+2023-10-20 01:49:30,275 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='password'] is found
+2023-10-20 01:49:33,538 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@type='submit']
+2023-10-20 01:49:33,557 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@type='submit'] is found
+2023-10-20 01:49:33,789 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@type='button']
+2023-10-20 01:49:33,853 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@type='button'] is found
+2023-10-20 01:49:34,094 INFO M.Application_manager [NGlistener.java:13] Start of the test>>addNewCarPossitiveInput
+2023-10-20 01:49:39,097 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //a[.=' Let the car work ']
+2023-10-20 01:49:39,114 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //a[.=' Let the car work '] is found
+2023-10-20 01:49:39,399 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.cssSelector: h2
+2023-10-20 01:49:39,407 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.cssSelector: h2 is found
+2023-10-20 01:49:42,433 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: pickUpPlace
+2023-10-20 01:49:42,451 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: pickUpPlace is found
+2023-10-20 01:49:42,736 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.className: pac-item
+2023-10-20 01:49:43,432 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.className: pac-item is found
+2023-10-20 01:49:44,169 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: make
+2023-10-20 01:49:44,180 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: make is found
+2023-10-20 01:49:44,438 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: model
+2023-10-20 01:49:44,459 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: model is found
+2023-10-20 01:49:44,738 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: year
+2023-10-20 01:49:44,757 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: year is found
+2023-10-20 01:49:45,029 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: fuel
+2023-10-20 01:49:45,037 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: fuel is found
+2023-10-20 01:49:45,071 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: .//option[@value = "Petrol"]
+2023-10-20 01:49:45,086 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: .//option[@value = "Petrol"] is found
+2023-10-20 01:49:45,307 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: seats
+2023-10-20 01:49:45,315 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: seats is found
+2023-10-20 01:49:45,566 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: class
+2023-10-20 01:49:45,579 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: class is found
+2023-10-20 01:49:45,845 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: serialNumber
+2023-10-20 01:49:45,858 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: serialNumber is found
+2023-10-20 01:49:45,904 INFO M.Application_manager [WDLISTENER.java:18] Something went wrong
+2023-10-20 01:49:45,905 INFO M.Application_manager [WDLISTENER.java:19] (337, 678) is out of bounds of viewport width (1408) and height (663)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G6QMAM9', ip: '10.0.0.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11320, moz:profile: C:\Users\ARTEMS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70dfe8ff-2d38-4e87-9735-3867bc66112c
+2023-10-20 01:49:45,905 INFO M.Application_manager [WDLISTENER.java:20] org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (337, 678) is out of bounds of viewport width (1408) and height (663)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G6QMAM9', ip: '10.0.0.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11320, moz:profile: C:\Users\ARTEMS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70dfe8ff-2d38-4e87-9735-3867bc66112c
+2023-10-20 01:49:45,970 INFO M.Application_manager [WDLISTENER.java:24] Here is the path to screenshot with error>src/test/screenshots/screenshot-1703.png
+2023-10-20 01:49:45,971 INFO M.Application_manager [NGlistener.java:26] failure test>>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (337, 678) is out of bounds of viewport width (1408) and height (663)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G6QMAM9', ip: '10.0.0.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11320, moz:profile: C:\Users\ARTEMS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70dfe8ff-2d38-4e87-9735-3867bc66112c
+2023-10-20 01:49:45,972 INFO M.Application_manager [NGlistener.java:54] Tests are finished org.testng.SuiteRunner@32c8e539
+2023-10-20 01:49:47,052 INFO M.Application_manager [Application_manager.java:53] Test completed

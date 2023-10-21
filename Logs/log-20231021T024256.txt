@@ -1,0 +1,77 @@
+2023-10-21 02:42:58,605 INFO M.Application_manager [NGlistener.java:48] Tests are started:
+2023-10-21 02:42:58,638 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[.=' Logout ']
+2023-10-21 02:43:01,653 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[.=' Logout '] is found
+2023-10-21 02:43:01,653 INFO M.Application_manager [NGlistener.java:13] Start of the test>>PositiveLoginTestwithProperties
+2023-10-21 02:43:01,653 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@href='/login?url=%2Fsearch']
+2023-10-21 02:43:01,668 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@href='/login?url=%2Fsearch'] is found
+2023-10-21 02:43:01,773 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='email']
+2023-10-21 02:43:01,799 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='email'] is found
+2023-10-21 02:43:02,090 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='password']
+2023-10-21 02:43:02,117 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='password'] is found
+2023-10-21 02:43:05,307 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@type='submit']
+2023-10-21 02:43:05,323 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@type='submit'] is found
+2023-10-21 02:43:05,389 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@type='button']
+2023-10-21 02:43:06,400 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@type='button'] is found
+2023-10-21 02:43:06,446 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //h2[@class='message']
+2023-10-21 02:43:06,462 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //h2[@class='message'] is found
+2023-10-21 02:43:09,484 INFO M.Application_manager [NGlistener.java:20] Success test>>POSITIVELOGINTESTWITHPROPERTIES
+2023-10-21 02:43:09,484 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[.=' Logout ']
+2023-10-21 02:43:09,498 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[.=' Logout '] is found
+2023-10-21 02:43:09,505 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[.=' Logout ']
+2023-10-21 02:43:09,526 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[.=' Logout '] is found
+2023-10-21 02:43:09,605 INFO M.Application_manager [NGlistener.java:13] Start of the test>>negativeLoginTestWithProperties
+2023-10-21 02:43:09,606 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@href='/login?url=%2Fsearch']
+2023-10-21 02:43:09,623 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@href='/login?url=%2Fsearch'] is found
+2023-10-21 02:43:09,691 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='email']
+2023-10-21 02:43:09,713 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='email'] is found
+2023-10-21 02:43:09,977 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='password']
+2023-10-21 02:43:09,998 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='password'] is found
+2023-10-21 02:43:13,205 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //div[@class='ng-star-inserted']
+2023-10-21 02:43:16,268 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //div[@class='ng-star-inserted'] is found
+2023-10-21 02:43:16,268 INFO M.Application_manager [NGlistener.java:26] failure test>>java.lang.AssertionError: expected [true] but found [false]
+2023-10-21 02:43:16,268 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[.=' Logout ']
+2023-10-21 02:43:19,330 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[.=' Logout '] is found
+2023-10-21 02:43:19,330 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@href='/login?url=%2Fsearch']
+2023-10-21 02:43:19,344 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@href='/login?url=%2Fsearch'] is found
+2023-10-21 02:43:19,395 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='email']
+2023-10-21 02:43:19,413 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='email'] is found
+2023-10-21 02:43:19,621 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@id='password']
+2023-10-21 02:43:19,635 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@id='password'] is found
+2023-10-21 02:43:22,815 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@type='submit']
+2023-10-21 02:43:22,832 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@type='submit'] is found
+2023-10-21 02:43:22,874 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //*[@type='button']
+2023-10-21 02:43:23,142 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //*[@type='button'] is found
+2023-10-21 02:43:23,232 INFO M.Application_manager [NGlistener.java:13] Start of the test>>addNewCarPossitiveInput
+2023-10-21 02:43:28,251 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //a[.=' Let the car work ']
+2023-10-21 02:43:28,279 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //a[.=' Let the car work '] is found
+2023-10-21 02:43:28,373 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.cssSelector: h2
+2023-10-21 02:43:28,384 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.cssSelector: h2 is found
+2023-10-21 02:43:31,420 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: pickUpPlace
+2023-10-21 02:43:31,447 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: pickUpPlace is found
+2023-10-21 02:43:31,593 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.className: pac-item
+2023-10-21 02:43:32,622 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.className: pac-item is found
+2023-10-21 02:43:32,669 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: make
+2023-10-21 02:43:32,695 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: make is found
+2023-10-21 02:43:32,856 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: model
+2023-10-21 02:43:32,877 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: model is found
+2023-10-21 02:43:33,051 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: year
+2023-10-21 02:43:33,071 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: year is found
+2023-10-21 02:43:33,258 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: fuel
+2023-10-21 02:43:33,279 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: fuel is found
+2023-10-21 02:43:33,314 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: .//option[@value = "Petrol"]
+2023-10-21 02:43:33,335 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: .//option[@value = "Petrol"] is found
+2023-10-21 02:43:33,391 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: seats
+2023-10-21 02:43:33,404 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: seats is found
+2023-10-21 02:43:33,585 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: class
+2023-10-21 02:43:33,605 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: class is found
+2023-10-21 02:43:33,759 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: serialNumber
+2023-10-21 02:43:33,786 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: serialNumber is found
+2023-10-21 02:43:34,029 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: price
+2023-10-21 02:43:34,050 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: price is found
+2023-10-21 02:43:34,223 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.id: about
+2023-10-21 02:43:34,244 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.id: about is found
+2023-10-21 02:43:34,397 INFO M.Application_manager [WDLISTENER.java:33] Start searching element by locator By.xpath: //button[@type='submit']
+2023-10-21 02:43:34,425 INFO M.Application_manager [WDLISTENER.java:39]  Element by locator By.xpath: //button[@type='submit'] is found
+2023-10-21 02:43:34,488 INFO M.Application_manager [NGlistener.java:20] Success test>>ADDNEWCARPOSSITIVEINPUT
+2023-10-21 02:43:34,489 INFO M.Application_manager [NGlistener.java:54] Tests are finished org.testng.SuiteRunner@5b5c0057
+2023-10-21 02:43:34,745 INFO M.Application_manager [Application_manager.java:53] Test completed
