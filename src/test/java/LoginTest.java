@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends TestBase
 {
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeMethod()
     public void precondition(){
 
         if(isLogged()){
@@ -30,8 +30,8 @@ public class LoginTest extends TestBase
 openLog_inForm();
 fill_Login_Email_Password_fields(getEmail(),getPassword());
 submit_Login();
+pause(5000);
 Assert.assertTrue(isElementPresent(By.xpath("//h2[@class='message']")));
-pause(3000);
 
 }
 
